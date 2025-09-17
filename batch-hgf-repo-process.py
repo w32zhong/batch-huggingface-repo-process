@@ -52,7 +52,6 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--target",
-        default="TAIL-LGE-HF",
         help=(
             "New owner for repositories when using the transfer operation. Ignored for set-private."
         ),
